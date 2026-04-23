@@ -1,3 +1,7 @@
 // marker.js
 
-console.log("Marker logic initialized");
+console.log("marker ready");
+
+function initMarker() {
+  console.log("init marker function");
+}
