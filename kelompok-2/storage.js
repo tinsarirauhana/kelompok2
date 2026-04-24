@@ -5,3 +5,6 @@ function addData(lat, lng) {
   markers.push({ lat, lng });
   console.log("Data masuk:", markers);
 }
+
+// tes data
+addData(5.5, 95.3);
