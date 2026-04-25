@@ -1,11 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <title>Map Marker</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peta Persebaran Masjid - Banda Aceh</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Kelompok 2</h1>
+
+  <div class="app-container">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content">
+        <div class="header-title">
+          <i class="fas fa-mosque"></i>
+          <h1>Persebaran Masjid</h1>
+          <p>Banda Aceh</p>
+        </div>
+        <div class="header-stats">
+          <div class="stat">
+            <span class="stat-label">Total Masjid</span>
+            <span class="stat-value" id="marker-count">0</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Layout -->
+    <main class="main-content">
+      <!-- Map Section -->
+      <section class="map-section">
+        <div id="map"></div>
+        <div class="map-legend">
+          <div class="legend-item">
+            <span class="legend-color mosque"></span>
+            <span>Masjid</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sidebar Panel -->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <h2>Daftar Masjid</h2>
+          <input type="text" id="searchInput" class="search-box" placeholder="Cari masjid...">
+        </div>
+
+        <div class="mosque-list" id="mosqueList">
+          <!-- List akan di-generate oleh JavaScript -->
+        </div>
+
+        <div class="sidebar-footer">
+          <button id="resetBtn" class="btn-reset">
+            <i class="fas fa-redo"></i> Reset
+          </button>
+        </div>
+      </aside>
+    </main>
+  </div>
 
   <script src="storage.js"></script>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="map.js"></script>
+  <script src="marker.js"></script>
+
 </body>
 </html>
