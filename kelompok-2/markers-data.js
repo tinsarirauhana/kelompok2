@@ -3,14 +3,14 @@
 // Kontributor: Tinsari (Data & Testing)
 
 const markersData = [
-  // === HARI 1 (kompensasi) ===
+  // === HARI 1  ===
   { id: 1, nama: "Masjid Raya Baiturrahman", lat: 5.5502, lng: 95.3182, kota: "Banda Aceh" },
   { id: 2, nama: "Masjid Jamik Luengbata", lat: 5.5371, lng: 95.3456, kota: "Banda Aceh" },
   { id: 3, nama: "Masjid Al-Furqan Beurawe", lat: 5.5456, lng: 95.3367, kota: "Banda Aceh" },
   { id: 4, nama: "Masjid Darul Aman Lamprit", lat: 5.5523, lng: 95.3301, kota: "Banda Aceh" },
   { id: 5, nama: "Masjid Al-Ikhlas Kuta Alam", lat: 5.5601, lng: 95.3289, kota: "Banda Aceh" },
 
-  // === HARI 2 (kompensasi) ===
+  // === HARI 2 ===
   { id: 6, nama: "Masjid Baitussalihin Ulee Lheue", lat: 5.5701, lng: 95.2901, kota: "Banda Aceh" },
   { id: 7, nama: "Masjid Agung Aceh Besar", lat: 5.5214, lng: 95.3789, kota: "Aceh Besar" },
   { id: 8, nama: "Masjid Nurul Islam Darussalam", lat: 5.4983, lng: 95.3821, kota: "Aceh Besar" },
@@ -23,6 +23,13 @@ const markersData = [
   { id: 13, nama: "Masjid Kopelma Darussalam", lat: 5.5567, lng: 95.3712, kota: "Banda Aceh" },
   { id: 14, nama: "Masjid Baitul Musyahadah Ingin Jaya", lat: 5.5134, lng: 95.4023, kota: "Aceh Besar" },
   { id: 15, nama: "Masjid Al-Huda Kuta Malaka", lat: 5.4612, lng: 95.4234, kota: "Aceh Besar" },
+
+  // === HARI 4 ===
+  { id: 16, nama: "Masjid Al-Muhajirin Lamdingin", lat: 5.5334, lng: 95.3267, kota: "Banda Aceh" },
+  { id: 17, nama: "Masjid Baitul Makmur Neusu", lat: 5.5612, lng: 95.3198, kota: "Banda Aceh" },
+  { id: 18, nama: "Masjid Darul Hikmah Kuta Baro", lat: 5.4923, lng: 95.4156, kota: "Aceh Besar" },
+  { id: 19, nama: "Masjid Nurul Iman Montasik", lat: 5.4734, lng: 95.4512, kota: "Aceh Besar" },
+  { id: 20, nama: "Masjid Al-Amin Lambaro", lat: 5.5089, lng: 95.3923, kota: "Aceh Besar" },
 ];
 
 console.log("Total marker data loaded:", markersData.length);
