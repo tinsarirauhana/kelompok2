@@ -1,25 +1,31 @@
 // storage.js
+// Kontributor: Tinsari (Data & Testing)
 
-let markers = [];
+const STORAGE_KEY = "markers_masjid";
 
-function addData(lat, lng, nama = "") {
-  const data = { lat, lng, nama };
-  markers.push(data);
-  localStorage.setItem("markers", JSON.stringify(markers));
-  console.log("Data tersimpan:", data);
+function saveMarkers(markersArray) {
+  const data = markersArray.map(m => ({
+    lat: m.getLatLng().lat,
+    lng: m.getLatLng().lng,
+    nama: m.getPopup() ? m.getPopup().getContent() : "Masjid"
+  }));
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+  console.log("Data tersimpan:", data.length, "marker");
 }
 
-function loadData() {
-  const saved = localStorage.getItem("markers");
+function loadMarkers() {
+  const saved = localStorage.getItem(STORAGE_KEY);
   if (saved) {
-    markers = JSON.parse(saved);
-    console.log("Data dimuat:", markers.length, "titik");
+    const data = JSON.parse(saved);
+    console.log("Data dimuat:", data.length, "marker");
+    return data;
   }
-  return markers;
+  return [];
 }
 
-function clearData() {
-  markers = [];
-  localStorage.removeItem("markers");
+function clearMarkers() {
+  localStorage.removeItem(STORAGE_KEY);
   console.log("Data dihapus");
 }
+
+console.log("storage ready");
