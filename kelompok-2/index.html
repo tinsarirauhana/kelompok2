@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<!-- Aplikasi Peta Persebaran Masjid di Banda Aceh -->
+<!-- Menampilkan lokasi dan informasi masjid menggunakan Leaflet Map -->
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -21,7 +23,7 @@
 <body>
 
   <div class="app-container">
-    <!-- Header -->
+    <!-- Header: Bagian atas berisi judul dan statistik masjid -->
     <header class="header">
       <div class="header-content">
         <div class="header-title">
@@ -38,9 +40,9 @@
       </div>
     </header>
 
-    <!-- Main Layout -->
+    <!-- Main Layout: Konten utama berisi peta dan sidebar -->
     <main class="main-content">
-      <!-- Map Section -->
+      <!-- Map Section: Bagian peta dengan legenda -->
       <section class="map-section">
         <div id="map"></div>
         <div class="map-legend">
@@ -51,18 +53,22 @@
         </div>
       </section>
 
-      <!-- Sidebar Panel -->
+      <!-- Sidebar Panel: Panel samping berisi pencarian dan daftar masjid -->
       <aside class="sidebar">
+        <!-- Header sidebar dengan judul dan input pencarian -->
         <div class="sidebar-header">
           <h2>Daftar Masjid</h2>
           <input type="text" id="searchInput" class="search-box" placeholder="Cari masjid...">
         </div>
 
+        <!-- Container untuk daftar masjid yang dinamis -->
         <div class="mosque-list" id="mosqueList">
           <!-- List akan di-generate oleh JavaScript -->
         </div>
 
+        <!-- Footer sidebar dengan tombol reset peta -->
         <div class="sidebar-footer">
+          <!-- Tombol untuk me-reset tampilan peta ke posisi awal -->
           <button id="resetBtn" class="btn-reset">
             <i class="fas fa-redo"></i> Reset
           </button>
@@ -71,9 +77,13 @@
     </main>
   </div>
 
+  <!-- Script untuk mengelola local storage -->
   <script src="storage.js"></script>
+  <!-- Library Leaflet untuk peta interaktif -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Script untuk inisialisasi dan konfigurasi peta -->
   <script src="map.js"></script>
+  <!-- Script untuk menambahkan dan mengelola marker masjid -->
   <script src="marker.js"></script>
 
 </body>
