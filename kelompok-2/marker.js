@@ -58,20 +58,3 @@ function addMarkerToSidebar(lat, lng, marker) {
 
   mosqueList.appendChild(item);
 }
-
-// tombol reset marker
-document.getElementById("resetBtn").addEventListener("click", function () {
-  // hapus semua marker dari map
-  markers.forEach((marker) => {
-    map.removeLayer(marker);
-  });
-
-  // kosongkan array marker
-  markers = [];
-
-  // kosongkan sidebar
-  document.querySelector(".mosque-list").innerHTML = "";
-
-  // update counter jadi 0
-  updateMarkerCount();
-});
