@@ -58,13 +58,58 @@ function saveMarkers(markersArray) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
 }
 
+// State untuk tracking apakah semua masjid sedang ditampilkan
+let isAllMosquesShown = true;
+
+// Fungsi untuk menampilkan semua masjid
+function showAllMosques() {
+  // Tampilkan semua markers
+  markers.forEach(marker => {
+    marker.setOpacity(1);
+  });
+
+  // Reset sidebar ke daftar lengkap
+  renderSidebar("");
+  document.getElementById("searchInput").value = "";
+  
+  // Update button state
+  isAllMosquesShown = true;
+  updateShowAllButton();
+  
+  // Fit map ke bounds semua markers
+  if (markers.length > 0) {
+    const group = new L.featureGroup(markers);
+    map.fitBounds(group.getBounds(), { padding: [50, 50] });
+  }
+}
+
+// Fungsi untuk update tampilan tombol
+function updateShowAllButton() {
+  const btn = document.getElementById("showAllBtn");
+  if (isAllMosquesShown) {
+    btn.innerHTML = '<i class="fas fa-map-pin"></i> Tampilkan Semua Masjid';
+  }
+}
+
 // Jalankan saat halaman siap
 window.addEventListener("load", function() {
   loadMarkersToMap();
+  isAllMosquesShown = true;
+
+  // Show All Mosques functionality
+  document.getElementById("showAllBtn").addEventListener("click", function() {
+    showAllMosques();
+  });
 
   // Search functionality
   document.getElementById("searchInput").addEventListener("input", function() {
     renderSidebar(this.value);
+    if (this.value.length > 0) {
+      isAllMosquesShown = false;
+    } else {
+      isAllMosquesShown = true;
+    }
+    updateShowAllButton();
   });
 });
 

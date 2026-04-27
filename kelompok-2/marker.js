@@ -50,15 +50,3 @@ function addMarkerToSidebar(lat, lng) {
   mosqueList.appendChild(item);
 }
 
-document.getElementById("resetBtn").addEventListener("click", function () {
-  markers.forEach((marker) => {
-    map.removeLayer(marker);
-  });
-
-  markers = [];
-
-  document.querySelector(".mosque-list").innerHTML = "";
-
-  updateMarkerCount();
-});
-
