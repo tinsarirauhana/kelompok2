@@ -55,6 +55,20 @@ const markersData = [
 { id: 39, nama: "Masjid Jami' Lueng Bata", lat: 5.545591541498424, lng: 95.33669173456789, kota: "Banda Aceh" },
 { id: 40, nama: "Masjid Babuttaqwa Batoh", lat: 5.53977384501537, lng: 95.32744878230442, kota: "Banda Aceh" },
 
+// === Batch 9 ===
+{ id: 41, nama: "Masjid Baitul Musyahadah", lat: 5.536668555716976, lng: 95.30722533423982, kota: "Banda Aceh" },
+{ id: 42, nama: "Masjid Al-Istiqamah Sukaramai", lat: 5.543976972125237, lng: 95.31074350116103, kota: "Banda Aceh" },
+{ id: 43, nama: "Masjid Baitul A'la", lat: 5.547289786943949, lng: 95.29932921091678, kota: "Banda Aceh" },
+{ id: 44, nama: "Masjid Al-Ikhlas", lat: 5.5274272754806555, lng: 95.32784645477999, kota: "Aceh Besar" },
+{ id: 45, nama: "Masjid Baitul Kiram", lat: 5.492741035419549, lng: 95.34252350128294, kota: "Aceh Besar" },
+
+// === Batch 10 ===
+{ id: 46, nama: "Masjid Al-Maghfirah Habib Chiek Kajhu", lat: 5.600576232018839, lng: 95.37560327151425, kota: "Aceh Besar" },
+{ id: 47, nama: "Masjid Baiturrahim Ulee Lheue", lat: 5.559204589642529, lng: 95.28442938911748, kota: "Banda Aceh" },
+{ id: 48, nama: "Masjid Baiturrahim Ateuk Jawo", lat: 5.5380623680991246, lng: 95.32218281184267, kota: "Banda Aceh" },
+{ id: 49, nama: "Masjid Al-Hidayah Lampulo", lat: 5.574864247116713, lng: 95.32419896639223, kota: "Banda Aceh" },
+{ id: 50, nama: "Masjid Al-Abrar Lamdingin", lat: 5.571176231601635, lng: 95.32906657298834, kota: "Banda Aceh" },
+
 
 ];
 
