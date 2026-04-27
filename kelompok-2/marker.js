@@ -19,24 +19,21 @@ function handleMapClick(e) {
   // simpan marker ke array
   markers.push(marker);
 
-  // update jumlah marker
+  // update counter
   updateMarkerCount();
 
-  // tambah marker ke sidebar + klik sidebar fokus ke marker
-  addMarkerToSidebar(lat, lng, marker);
+  // tambah ke sidebar
+  addMarkerToSidebar(lat, lng);
 }
 
-// event klik map
 map.on("click", handleMapClick);
 
-// update counter marker
 function updateMarkerCount() {
   const markerCountEl = document.getElementById("marker-count");
   markerCountEl.textContent = markers.length;
 }
 
-// tambah item ke sidebar
-function addMarkerToSidebar(lat, lng, marker) {
+function addMarkerToSidebar(lat, lng) {
   const mosqueList = document.querySelector(".mosque-list");
 
   const item = document.createElement("div");
@@ -49,12 +46,6 @@ function addMarkerToSidebar(lat, lng, marker) {
       ${lat.toFixed(5)}, ${lng.toFixed(5)}
     </div>
   `;
-
-  // klik item sidebar → fokus ke marker di map
-  item.addEventListener("click", function () {
-    map.setView([lat, lng], 15);
-    marker.openPopup();
-  });
 
   mosqueList.appendChild(item);
 }

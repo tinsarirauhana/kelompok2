@@ -1,62 +1,35 @@
 // markers-data.js
 // Data koordinat masjid di Banda Aceh & Aceh Besar
+// Kontributor: Tinsari (Data & Testing)
 
 const markersData = [
-// === Batch 1 ===
-  { id: 1, nama: "Masjid Raya Baiturrahman", lat: 5.5547, lng: 95.3176, kota: "Banda Aceh" },
-  { id: 2, nama: "Masjid Jamik Luengbata", lat: 5.5410, lng: 95.3356, kota: "Banda Aceh" },
-  { id: 3, nama: "Masjid Al-Furqan Beurawe", lat: 5.5563, lng: 95.3333, kota: "Banda Aceh" },
-  { id: 4, nama: "Masjid Darul Makmur Gampong Lambaro Skep", lat: 5.5713, lng: 95.3338, kota: "Banda Aceh" },
-  { id: 5, nama: "Masjid Al-Ikhlas Kuta Alam", lat: 5.5632, lng: 95.3270, kota: "Banda Aceh" },
-// === Batch 2 ===
-  { id: 6, nama: "Masjid Baitussalihin Ulee Kareng", lat: 5.5511, lng: 95.3561, kota: "Banda Aceh" },
-  { id: 7, nama: "Masjid Agung Aceh Besar", lat: 5.3025, lng: 95.6031, kota: "Aceh Besar" },
-  { id: 8, nama: "Masjid Nurul Huda Darussalam", lat: 5.5996, lng: 95.3858, kota: "Banda Aceh" },
-  { id: 9, nama: "Masjid Al-Munawwarah", lat: 5.5524, lng: 95.3194, kota: "Banda Aceh" },
-  { id: 10, nama: "Masjid Darul Falah", lat: 5.5672, lng: 95.3477, kota: "Banda Aceh" },
-// === Batch 3 ===
-  { id: 11, nama: "Masjid Tuha Ulee Kareng", lat: 5.5549, lng: 95.3572, kota: "Banda Aceh" },
-  { id: 12, nama: "Masjid Haji Keuchik Leumiek", lat: 5.5527, lng: 95.3365, kota: "Banda Aceh" },
-  { id: 13, nama: "Masjid Jami' Darussalam", lat: 5.5718, lng: 95.3716, kota: "Banda Aceh" },
-  { id: 14, nama: "Masjid Tgk Chik Di Lamnyong", lat: 5.5717, lng: 95.3654, kota: "Banda Aceh" },
-  { id: 15, nama: "Masjid Al-Hasyimiah", lat: 5.5739, lng: 95.3625, kota: "Banda Aceh" },
-// === Batch 4 ===
-  { id: 16, nama: "Masjid Baitul Muttaqin", lat: 5.5795, lng: 95.3628, kota: "Banda Aceh" },
-  { id: 17, nama: "Masjid Fathun Qarib UIN Ar-Raniry", lat: 5.5781, lng: 95.3693, kota: "Banda Aceh" },
-  { id: 18, nama: "Masjid Al-Mizan FEB USK", lat: 5.5748, lng: 95.3671, kota: "Banda Aceh" },
-  { id: 19, nama: "Masjid Jamik Silang Rukoh", lat: 5.5854, lng: 95.3697, kota: "Banda Aceh" },
-  { id: 20, nama: "Masjid Babul Maghfirah", lat: 5.5769, lng: 95.3752, kota: "Banda Aceh" },
+  // === HARI 1  ===
+  { id: 1, nama: "Masjid Raya Baiturrahman", lat: 5.5502, lng: 95.3182, kota: "Banda Aceh" },
+  { id: 2, nama: "Masjid Jamik Luengbata", lat: 5.5371, lng: 95.3456, kota: "Banda Aceh" },
+  { id: 3, nama: "Masjid Al-Furqan Beurawe", lat: 5.5456, lng: 95.3367, kota: "Banda Aceh" },
+  { id: 4, nama: "Masjid Darul Aman Lamprit", lat: 5.5523, lng: 95.3301, kota: "Banda Aceh" },
+  { id: 5, nama: "Masjid Al-Ikhlas Kuta Alam", lat: 5.5601, lng: 95.3289, kota: "Banda Aceh" },
 
-  // === Batch 5 ===
-{ id: 21, nama: "Masjid Besar Syuhada Lamgugob", lat: 5.5702808259883305, lng: 95.35477300596052, kota: "Banda Aceh" },
-{ id: 22, nama: "Masjid Jamik Al-Wustha", lat: 5.582324518310824, lng: 95.35065832846938, kota: "Banda Aceh" },
-{ id: 23, nama: "Masjid Jami' Al-Hidayah Peurada", lat: 5.574063418340451, lng: 95.347552321905, kota: "Banda Aceh" },
-{ id: 24, nama: "Masjid Babuttaqwa Utama Polda Aceh", lat: 5.5767382978781805, lng: 95.34782354889401, kota: "Banda Aceh" },
-{ id: 25, nama: "Masjid An-Nur", lat: 5.560921542123523, lng: 95.35042580656433, kota: "Banda Aceh" },
+  // === HARI 2 ===
+  { id: 6, nama: "Masjid Baitussalihin Ulee Lheue", lat: 5.5701, lng: 95.2901, kota: "Banda Aceh" },
+  { id: 7, nama: "Masjid Agung Aceh Besar", lat: 5.5214, lng: 95.3789, kota: "Aceh Besar" },
+  { id: 8, nama: "Masjid Nurul Islam Darussalam", lat: 5.4983, lng: 95.3821, kota: "Aceh Besar" },
+  { id: 9, nama: "Masjid Al-Munawwarah Peukan Bada", lat: 5.5012, lng: 95.2634, kota: "Aceh Besar" },
+  { id: 10, nama: "Masjid Darul Falah Lhoknga", lat: 5.4756, lng: 95.2312, kota: "Aceh Besar" },
 
-// === Batch 6 ===
-{ id: 26, nama: "Masjid Oman Al-Makmur", lat: 5.567538055632234, lng: 95.33867730656435, kota: "Banda Aceh" },
-{ id: 27, nama: "Masjid Al Badar Gampong Kota Baru", lat: 5.5689645729760064, lng: 95.34254230656435, kota: "Banda Aceh" },
-{ id: 28, nama: "Masjid Sabilil Jannah", lat: 5.556279209769507, lng: 95.34829429491597, kota: "Banda Aceh" },
-{ id: 29, nama: "Masjid Asrama Haji", lat: 5.572393775286571, lng: 95.34521830656435, kota: "Banda Aceh" },
-{ id: 30, nama: "Masjid Raudhatul Jannah Gampong Pango Raya", lat: 5.538861745126126, lng: 95.34623212625739, kota: "Banda Aceh" },
+  // === HARI 3 ===
+  { id: 11, nama: "Masjid Ulee Kareng", lat: 5.5389, lng: 95.3012, kota: "Banda Aceh" },
+  { id: 12, nama: "Masjid Al-Makmur Lambaro Skep", lat: 5.5278, lng: 95.3423, kota: "Banda Aceh" },
+  { id: 13, nama: "Masjid Kopelma Darussalam", lat: 5.5567, lng: 95.3712, kota: "Banda Aceh" },
+  { id: 14, nama: "Masjid Baitul Musyahadah Ingin Jaya", lat: 5.5134, lng: 95.4023, kota: "Aceh Besar" },
+  { id: 15, nama: "Masjid Al-Huda Kuta Malaka", lat: 5.4612, lng: 95.4234, kota: "Aceh Besar" },
 
-// === Batch 7 ===
-{ id: 31, nama: "Masjid Al-Muhyi", lat: 5.540100477956697, lng: 95.35146779854853, kota: "Banda Aceh" },
-{ id: 32, nama: "Masjid Al Jihad Jeulingke", lat: 5.577977580518428, lng: 95.34277625048006, kota: "Banda Aceh" },
-{ id: 33, nama: "Masjid Babuzamzam Peunayong", lat: 5.5680905644997445, lng: 95.3190091754914, kota: "Banda Aceh" },
-{ id: 34, nama: "Masjid Kodam Iskandar Muda", lat: 5.560762708646407, lng: 95.32058666639224, kota: "Banda Aceh" },
-{ id: 35, nama: "Masjid Al-Muttaqin", lat: 5.566236960951239, lng: 95.31832794366701, kota: "Banda Aceh" },
-
-// === Batch 8 ===
-{ id: 36, nama: "Masjid Teungku di Anjong", lat: 5.567903134318871, lng: 95.31698216639224, kota: "Banda Aceh" },
-{ id: 37, nama: "Masjid Jami' Keudah", lat: 5.565495153117457, lng: 95.31610703685396, kota: "Banda Aceh" },
-{ id: 38, nama: "Masjid Baiturrahmah Kampung Keuramat", lat: 5.563065083059363, lng: 95.32672542094181, kota: "Banda Aceh" },
-{ id: 39, nama: "Masjid Jami' Lueng Bata", lat: 5.545591541498424, lng: 95.33669173456789, kota: "Banda Aceh" },
-{ id: 40, nama: "Masjid Babuttaqwa Batoh", lat: 5.53977384501537, lng: 95.32744878230442, kota: "Banda Aceh" },
-
-
+  // === HARI 4 ===
+  { id: 16, nama: "Masjid Al-Muhajirin Lamdingin", lat: 5.5334, lng: 95.3267, kota: "Banda Aceh" },
+  { id: 17, nama: "Masjid Baitul Makmur Neusu", lat: 5.5612, lng: 95.3198, kota: "Banda Aceh" },
+  { id: 18, nama: "Masjid Darul Hikmah Kuta Baro", lat: 5.4923, lng: 95.4156, kota: "Aceh Besar" },
+  { id: 19, nama: "Masjid Nurul Iman Montasik", lat: 5.4734, lng: 95.4512, kota: "Aceh Besar" },
+  { id: 20, nama: "Masjid Al-Amin Lambaro", lat: 5.5089, lng: 95.3923, kota: "Aceh Besar" },
 ];
-
 
 console.log("Total marker data loaded:", markersData.length);
