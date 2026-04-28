@@ -26,8 +26,6 @@ function handleMapClick(e) {
   addMarkerToSidebar(lat, lng);
 }
 
-map.on("click", handleMapClick);
-
 function updateMarkerCount() {
   const markerCountEl = document.getElementById("marker-count");
   markerCountEl.textContent = markers.length;

@@ -14,6 +14,17 @@ function loadMarkersToMap() {
       <small>${m.kota}</small><br>
       <small>Lat: ${m.lat}, Lng: ${m.lng}</small>
     `);
+    
+    // Tampilkan popup saat hover
+    marker.on('mouseover', function() {
+      this.openPopup();
+    });
+    
+    // Sembunyikan popup saat mouseout
+    marker.on('mouseout', function() {
+      this.closePopup();
+    });
+    
     markers.push(marker);
   });
 
@@ -41,10 +52,23 @@ function renderSidebar(filter = "") {
         ${m.kota}
       </div>
     `;
+    
+    // Klik item: pindah ke marker dan buka popup
     item.addEventListener("click", function() {
       map.setView([m.lat, m.lng], 16);
       markers[i].openPopup();
     });
+    
+    // Hover item: tampilkan popup di map
+    item.addEventListener("mouseover", function() {
+      markers[i].openPopup();
+    });
+    
+    // Mouseout item: sembunyikan popup
+    item.addEventListener("mouseout", function() {
+      markers[i].closePopup();
+    });
+    
     mosqueList.appendChild(item);
   });
 }
