@@ -195,6 +195,18 @@ const markersData = [
   { id: 158, nama: "Masjid Empe Awe", lat: 5.4911157241749065, lng: 95.46433497524002, kota: "Aceh Besar" },
   { id: 159, nama: "Masjid Nurussalam Piyeung", lat: 5.452131024433475, lng: 95.44200960592134, kota: "Aceh Besar" },
   { id: 160, nama: "Masjid Manarul Huda", lat: 5.526520864885505, lng: 95.33875369115222, kota: "Aceh Besar" },
+  // === Batch 33 ===
+  { id: 161, nama: "Masjid Babul Ukhwah", lat: 5.58283907361072, lng: 95.38197177524005, kota: "Aceh Besar" },
+  { id: 162, nama: "Masjid Jami' Darul Hasani", lat: 5.595388201592108, lng: 95.39641374455871, kota: "Aceh Besar" },
+  { id: 163, nama: "Masjid Aneuk Glee", lat: 5.424013509821552, lng: 95.41946029796523, kota: "Aceh Besar" },
+  { id: 164, nama: "Masjid Iskandar Muda", lat: 5.5499830834911075, lng: 95.32185908319609, kota: "Banda Aceh" },
+  { id: 165, nama: "Masjid Al-A'la Cot Mesjid", lat: 5.536918273109968, lng: 95.33818703969554, kota: "Banda Aceh" },
+  // === Batch 34 ===
+  { id: 166, nama: "Masjid Ar-Rahman Panteriek", lat: 5.551678190613954, lng: 95.33928148235061, kota: "Banda Aceh" },
+  { id: 167, nama: "Masjid Baitul 'Allam", lat: 5.558807252789596, lng: 95.32873812864658, kota: "Banda Aceh" },
+  { id: 168, nama: "Masjid Bayt Alrahmin", lat: 5.555043782263266, lng: 95.31899449000913, kota: "Banda Aceh" },
+  { id: 169, nama: "Masjid Baitussalam", lat: 5.547957219459544, lng: 95.32518771387744, kota: "Banda Aceh" },
+  { id: 170, nama: "Masjid Gampong Deah Raya", lat: 5.596230038378964, lng: 95.3357740218335, kota: "Banda Aceh" },
 ];
 
 console.log("Total marker data loaded:", markersData.length);
