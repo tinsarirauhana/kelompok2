@@ -165,6 +165,24 @@ const markersData = [
   { id: 133, nama: "Masjid Jami' Babussalam", lat: 5.546314022576827, lng: 95.36550879540766, kota: "Aceh Besar" },
   { id: 134, nama: "Masjid As-Sajidin", lat: 5.532204133837003, lng: 95.34561307524004, kota: "Aceh Besar" },
   { id: 135, nama: "Masjid Teungku Chik Mahraja Gurah Meukan Bada", lat: 5.534379268551787, lng: 95.2733007297896, kota: "Aceh Besar" },
+  // === Batch 28 ===
+  { id: 136, nama: "Masjid Baitul Maghfirah Peukan Bada", lat: 5.536763566075986, lng: 95.28124519796526, kota: "Aceh Besar" },
+  { id: 137, nama: "Masjid Al-Huda", lat: 5.561461135792826, lng: 95.32448860592133, kota: "Aceh Besar" },
+  { id: 138, nama: "Masjid Jami' Lamsayuen", lat: 5.514142210719729, lng: 95.34896054455872, kota: "Aceh Besar" },
+  { id: 139, nama: "Masjid Al-Mizan Kejati Aceh", lat: 5.524612739202921, lng: 95.32885723660262, kota: "Aceh Besar" },
+  { id: 140, nama: "Masjid Nurul Huda BPKP", lat: 5.556120434273558, lng: 95.34494630731668, kota: "Banda Aceh" },
+  // === Batch 29 ===
+  { id: 141, nama: "Masjid Meunara Baro", lat: 5.541426731115353, lng: 95.35996667736974, kota: "Aceh Besar" },
+  { id: 142, nama: "Masjid Haji Abdul Wahab", lat: 5.530491644798299, lng: 95.3658889953767, kota: "Aceh Besar" },
+  { id: 143, nama: "Masjid Al-Fatah", lat: 5.519868189026713, lng: 95.30094821387746, kota: "Aceh Besar" },
+  { id: 144, nama: "Masjid Al-Ikhlas LAN Aceh", lat: 5.525077105455004, lng: 95.32685536047094, kota: "Aceh Besar" },
+  { id: 145, nama: "Masjid Daroi", lat: 5.5077690909182, lng: 95.30724045251482, kota: "Aceh Besar" },
+  // === Batch 30 ===
+  { id: 146, nama: "Masjid Baitul Quwa", lat: 5.546224950849471, lng: 95.27518157524007, kota: "Aceh Besar" },
+  { id: 147, nama: "Masjid Subulussalam", lat: 5.547609975954779, lng: 95.30513743774569, kota: "Banda Aceh" },
+  { id: 148, nama: "Masjid Taqwa Muhammadiyah Aceh", lat: 5.5549116269383845, lng: 95.3139230831961, kota: "Banda Aceh" },
+  { id: 149, nama: "Masjid Jami' Al-Mukarramah", lat: 5.451056367608377, lng: 95.41832134455872, kota: "Aceh Besar" },
+  { id: 150, nama: "Masjid Babul Jannah", lat: 5.522853517596557, lng: 95.29882343660267, kota: "Aceh Besar" },
 ];
 
 console.log("Total marker data loaded:", markersData.length);
