@@ -88,8 +88,14 @@ const markersData = [
 { id: 62, nama: "Masjid Al-Qadar", lat: 5.547516257399426, lng: 95.32094733685398, kota: "Banda Aceh" },
 { id: 63, nama: "Masjid Baitul Muwarrabin", lat: 5.551689334530777, lng: 95.30990882775485, kota: "Banda Aceh" },
 { id: 64, nama: "Masjid Babussalam", lat: 5.563518672149116, lng: 95.30734798001829, kota: "Banda Aceh" },
-{ id: 65, nama: "Masjid Quba", lat: 5.54710758914914, lng: 95.31075239172122, kota: "Banda Aceh" }
+{ id: 65, nama: "Masjid Quba", lat: 5.54710758914914, lng: 95.31075239172122, kota: "Banda Aceh" },
 
+// === Batch 14 ===
+{ id: 66, nama: "Masjid Al-Qurban Kemukiman Lam Ara", lat: 5.5205, lng: 95.3140, kota: "Banda Aceh" },
+{ id: 67, nama: "Masjid Al-Faizin", lat: 5.5152, lng: 95.3252, kota: "Aceh Besar" },
+{ id: 68, nama: "Masjid Mibo", lat: 5.5242, lng: 95.3151, kota: "Banda Aceh" },
+{ id: 69, nama: "Masjid Kampus UNIDA", lat: 5.5397, lng: 95.3002, kota: "Banda Aceh" },
+{ id: 70, nama: "Masjid Amal Bakti Museum Pancasila", lat: 5.5406, lng: 95.3015, kota: "Banda Aceh" }
 
 ];
 
