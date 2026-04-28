@@ -123,6 +123,63 @@ const markersData = [
   { id: 98, nama: "Masjid Samahani", lat: 5.4412, lng: 95.401, kota: "Aceh Besar" },
   { id: 99, nama: "Masjid Istiqamah", lat: 5.4513, lng: 95.3847, kota: "Aceh Besar" },
   { id: 100, nama: "Masjid Babun Najah", lat: 5.5435, lng: 95.2881, kota: "Banda Aceh" },
+
+    // === Batch 22 ===
+  { id: 114, nama: "Masjid Babuttaqwa XII", lat: 5.558005960816356, lng: 95.32921455027133, kota: "Banda Aceh" },
+  { id: 115, nama: "Mushalla Darul Faizin Dusun Timur", lat: 5.572699250057011, lng: 95.37333151937258, kota: "Banda Aceh" },
+  { id: 116, nama: "Masjid Baitul Azhar", lat: 5.542455164399613, lng: 95.36869660608454, kota: "Aceh Besar" },
+  { id: 117, nama: "Masjid Jami' Pagar Air", lat: 5.529298887234542, lng: 95.35959855409088, kota: "Aceh Besar" },
+  { id: 118, nama: "Masjid Lambaro Angan", lat: 5.594465379285044, lng: 95.39871214164268, kota: "Aceh Besar" },
+
+  { id: 119, nama: "Mesjid Polayasa Kajhu", lat: 5.603100816934822, lng: 95.38544674828631, kota: "Aceh Besar" },
+  { id: 120, nama: "Masjid Cot Goh", lat: 5.464093384081091, lng: 95.4228381962092, kota: "Aceh Besar" },
+  { id: 121, nama: "Masjid Hidayatullah Blang Cut", lat: 5.487948686859541, lng: 95.38654938735507, kota: "Aceh Besar" },
+  { id: 122, nama: "Masjid Prof. A. Madjid Ibrahim", lat: 5.553219173166106, lng: 95.37504807634424, kota: "Aceh Besar" },
+  { id: 123, nama: "Masjid Babul Iman", lat: 5.521397940204993, lng: 95.30616040300104, kota: "Aceh Besar" },
+
+  { id: 124, nama: "Masjid Kompleks Korpri", lat: 5.519843183065503, lng: 95.29737974164271, kota: "Aceh Besar" },
+  { id: 125, nama: "Mesjid Markaz Dewan Dakwah Aceh", lat: 5.554756872663254, lng: 95.36938325151803, kota: "Aceh Besar" },
+  { id: 126, nama: "Masjid Klieng", lat: 5.6070751339773865, lng: 95.39549039620918, kota: "Aceh Besar" },
+  { id: 127, nama: "Masjid Hikmatullah", lat: 5.532924292514899, lng: 95.29100359620921, kota: "Aceh Besar" },
+  { id: 128, nama: "Masjid Desa Labuy", lat: 5.618129997469949, lng: 95.39959054164267, kota: "Aceh Besar" },
+
+  { id: 129, nama: "Masjid Bueng Cala Seupe", lat: 5.533079791437216, lng: 95.40643664164267, kota: "Aceh Besar" },
+  { id: 130, nama: "Masjid Beurangong Kuta Baro", lat: 5.550998044586823, lng: 95.39427414848177, kota: "Aceh Besar" },
+  { id: 131, nama: "Mushalla Kajhu Lambateung", lat: 5.595419021800321, lng: 95.37968293302026, kota: "Aceh Besar" },
+  { id: 132, nama: "Masjid Darul Falah Cot Keueng", lat: 5.560305822104274, lng: 95.40222705077569, kota: "Aceh Besar" },
+  { id: 133, nama: "Masjid Al-Islah Lhoknga", lat: 5.48209378850389, lng: 95.24495008941736, kota: "Aceh Besar" },
+
+  { id: 134, nama: "Masjid Jamik Baitul Ahad Mukim Siem", lat: 5.578547877197656, lng: 95.39816021892591, kota: "Aceh Besar" },
+  { id: 135, nama: "Masjid At Tawabin", lat: 5.605889283512302, lng: 95.38195193485083, kota: "Aceh Besar" },
+  { id: 114, nama: "Masjid Babuttaqwa XII", lat: 5.558005960816356, lng: 95.32921455027133, kota: "Banda Aceh" },
+  { id: 115, nama: "Mushalla Darul Faizin Dusun Timur", lat: 5.572699250057011, lng: 95.37333151937258, kota: "Banda Aceh" },
+  { id: 116, nama: "Masjid Baitul Azhar", lat: 5.542455164399613, lng: 95.36869660608454, kota: "Aceh Besar" },
+  { id: 117, nama: "Masjid Jami' Pagar Air", lat: 5.529298887234542, lng: 95.35959855409088, kota: "Aceh Besar" },
+  { id: 118, nama: "Masjid Lambaro Angan", lat: 5.594465379285044, lng: 95.39871214164268, kota: "Aceh Besar" },
+
+  { id: 119, nama: "Mesjid Polayasa Kajhu", lat: 5.603100816934822, lng: 95.38544674828631, kota: "Aceh Besar" },
+  { id: 120, nama: "Masjid Cot Goh", lat: 5.464093384081091, lng: 95.4228381962092, kota: "Aceh Besar" },
+  { id: 121, nama: "Masjid Hidayatullah Blang Cut", lat: 5.487948686859541, lng: 95.38654938735507, kota: "Aceh Besar" },
+  { id: 122, nama: "Masjid Prof. A. Madjid Ibrahim", lat: 5.553219173166106, lng: 95.37504807634424, kota: "Aceh Besar" },
+  { id: 123, nama: "Masjid Babul Iman", lat: 5.521397940204993, lng: 95.30616040300104, kota: "Aceh Besar" },
+
+  { id: 124, nama: "Masjid Kompleks Korpri", lat: 5.519843183065503, lng: 95.29737974164271, kota: "Aceh Besar" },
+  { id: 125, nama: "Mesjid Markaz Dewan Dakwah Aceh", lat: 5.554756872663254, lng: 95.36938325151803, kota: "Aceh Besar" },
+  { id: 126, nama: "Masjid Klieng", lat: 5.6070751339773865, lng: 95.39549039620918, kota: "Aceh Besar" },
+  { id: 127, nama: "Masjid Hikmatullah", lat: 5.532924292514899, lng: 95.29100359620921, kota: "Aceh Besar" },
+  { id: 128, nama: "Masjid Desa Labuy", lat: 5.618129997469949, lng: 95.39959054164267, kota: "Aceh Besar" },
+
+  { id: 129, nama: "Masjid Bueng Cala Seupe", lat: 5.533079791437216, lng: 95.40643664164267, kota: "Aceh Besar" },
+  { id: 130, nama: "Masjid Beurangong Kuta Baro", lat: 5.550998044586823, lng: 95.39427414848177, kota: "Aceh Besar" },
+  { id: 131, nama: "Mushalla Kajhu Lambateung", lat: 5.595419021800321, lng: 95.37968293302026, kota: "Aceh Besar" },
+  { id: 132, nama: "Masjid Darul Falah Cot Keueng", lat: 5.560305822104274, lng: 95.40222705077569, kota: "Aceh Besar" },
+  { id: 133, nama: "Masjid Al-Islah Lhoknga", lat: 5.48209378850389, lng: 95.24495008941736, kota: "Aceh Besar" },
+
+  { id: 134, nama: "Masjid Jamik Baitul Ahad Mukim Siem", lat: 5.578547877197656, lng: 95.39816021892591, kota: "Aceh Besar" },
+  { id: 135, nama: "Masjid At Tawabin", lat: 5.605889283512302, lng: 95.38195193485083, kota: "Aceh Besar" },
+  { id: 136, nama: "Masjid Tuha Tengku Syik Kuta Karang", lat: 5.506061112268082, lng: 95.32200471660771, kota: "Aceh Besar" },
+  { id: 137, nama: "Masjid Baiturrahim Gampong Lampisang", lat: 5.518555027198778, lng: 95.26929108941735, kota: "Aceh Besar" },
+  { id: 138, nama: "Masjid Baitul Jannah Kem. Tungkop", lat: 5.571668455225453, lng: 95.38260111950055, kota: "Aceh Besar" }
 ];
 
 console.log("Total marker data loaded:", markersData.length);
