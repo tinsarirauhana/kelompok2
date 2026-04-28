@@ -42,7 +42,10 @@ function renderSidebar(filter = "") {
     m.nama.toLowerCase().includes(filter.toLowerCase())
   );
 
-  filtered.forEach(function(m, i) {
+  filtered.forEach(function(m) {
+    // Cari indeks asli dari markersData
+    const originalIndex = markersData.findIndex(mosque => mosque.id === m.id);
+    
     const item = document.createElement("div");
     item.classList.add("mosque-item");
     item.innerHTML = `
@@ -56,17 +59,17 @@ function renderSidebar(filter = "") {
     // Klik item: pindah ke marker dan buka popup
     item.addEventListener("click", function() {
       map.setView([m.lat, m.lng], 16);
-      markers[i].openPopup();
+      markers[originalIndex].openPopup();
     });
     
     // Hover item: tampilkan popup di map
     item.addEventListener("mouseover", function() {
-      markers[i].openPopup();
+      markers[originalIndex].openPopup();
     });
     
     // Mouseout item: sembunyikan popup
     item.addEventListener("mouseout", function() {
-      markers[i].closePopup();
+      markers[originalIndex].closePopup();
     });
     
     mosqueList.appendChild(item);
