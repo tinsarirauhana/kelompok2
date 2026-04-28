@@ -152,7 +152,19 @@ const markersData = [
   { id: 122, nama: "Masjid At Tawabin", lat: 5.605889283512302, lng: 95.38195193485083, kota: "Aceh Besar" },
   { id: 123, nama: "Masjid Tuha Tengku Syik Kuta Karang", lat: 5.506061112268082, lng: 95.32200471660771, kota: "Aceh Besar" },
   { id: 124, nama: "Masjid Baiturrahim Gampong Lampisang", lat: 5.518555027198778, lng: 95.26929108941735, kota: "Aceh Besar" },
-  { id: 125, nama: "Masjid Baitul Jannah Kem. Tungkop", lat: 5.571668455225453, lng: 95.38260111950055, kota: "Aceh Besar" }
+  { id: 125, nama: "Masjid Baitul Jannah Kem. Tungkop", lat: 5.571668455225453, lng: 95.38260111950055, kota: "Aceh Besar" },
+  // === Batch 26 ===
+  { id: 126, nama: "Masjid Jami' Lambaro", lat: 5.513216075249348, lng: 95.35690151387745, kota: "Aceh Besar" },
+  { id: 127, nama: "Masjid Agung Al-Munawwarah", lat: 5.303017286624333, lng: 95.60138648319614, kota: "Aceh Besar" },
+  { id: 128, nama: "Masjid Ath-Thaahirah Lamcot", lat: 5.52996567913958, lng: 95.33917902183354, kota: "Aceh Besar" },
+  { id: 129, nama: "Masjid Hidayatul Islam", lat: 5.561844044932255, lng: 95.36314241261387, kota: "Aceh Besar" },
+  { id: 130, nama: "Masjid Jami' Baitul Muttaqin", lat: 5.444047873072428, lng: 95.71793552183351, kota: "Aceh Besar" },
+  // === Batch 27 ===
+  { id: 131, nama: "Masjid Besar Abu Indrapuri", lat: 5.413512711516226, lng: 95.44546266728395, kota: "Aceh Besar" },
+  { id: 132, nama: "Masjid Baitushshadiqien", lat: 5.592170501530003, lng: 95.36774017524006, kota: "Aceh Besar" },
+  { id: 133, nama: "Masjid Jami' Babussalam", lat: 5.546314022576827, lng: 95.36550879540766, kota: "Aceh Besar" },
+  { id: 134, nama: "Masjid As-Sajidin", lat: 5.532204133837003, lng: 95.34561307524004, kota: "Aceh Besar" },
+  { id: 135, nama: "Masjid Teungku Chik Mahraja Gurah Meukan Bada", lat: 5.534379268551787, lng: 95.2733007297896, kota: "Aceh Besar" },
 ];
 
 console.log("Total marker data loaded:", markersData.length);
